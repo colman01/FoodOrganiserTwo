@@ -39,17 +39,30 @@ class LandingTableViewController: UITableViewController {
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell: UITableViewCell
+        let fakeCell: UITableViewCell
+        let product: Product
+        product = records[indexPath.row]
+        
         if(indexPath.row % 2 == 0) {
-                 cell = tableView.dequeueReusableCell(withIdentifier: "title", for: indexPath)
+            let cell: ExclusiveTableViewCell
+
+            
+                cell = tableView.dequeueReusableCell(withIdentifier: "title", for: indexPath) as! ExclusiveTableViewCell
+            
+            cell.productName.text = product.name
+            cell.productImage.image = UIImage(data:product.image as! Data,scale:1)
+            return cell
+            
         } else {
-            cell = tableView.dequeueReusableCell(withIdentifier: "special", for: indexPath)
+            let cell: SpecialTableViewCell
+            cell = tableView.dequeueReusableCell(withIdentifier: "special", for: indexPath) as! SpecialTableViewCell
+            return cell
         }
 //        let cell = tableView.dequeueReusableCell(withIdentifier: "title", for: indexPath)
 
         // Configure the cell...
-
-        return cell
+        return fakeCell
+        
     }
     
 //    optional public func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? // fixed font

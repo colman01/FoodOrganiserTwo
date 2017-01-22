@@ -41,6 +41,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="0Ci-NI-Gm7" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="p5g-se-El4">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
@@ -62,20 +63,13 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <inset key="separatorInset" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="special" rowHeight="170" id="QuW-ZT-tfB">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="special" rowHeight="170" id="QuW-ZT-tfB" customClass="SpecialTableViewCell" customModule="FoodOrganiserTwo" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="92" width="375" height="170"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="QuW-ZT-tfB" id="5rh-Bi-fR6">
                                     <frame key="frameInset" width="375" height="169.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Friedriechstrasse  52 64283 Darmstadt" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tik-WA-BOU">
-                                            <frame key="frameInset" minX="19" minY="57" width="117" height="39"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="9"/>
-                                            <nil key="textColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="45q-Is-jBD">
                                             <frame key="frameInset" minX="182" minY="10" width="185" height="57"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -112,7 +106,7 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lidl.png" translatesAutoresizingMaskIntoConstraints="NO" id="r1K-3E-cBg">
-                                            <frame key="frameInset" minY="7" width="128" height="64"/>
+                                            <frame key="frameInset" minY="14" width="128" height="57"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KFt-16-0gY">
@@ -146,9 +140,25 @@
                                             <color key="textColor" red="0.33737980769230769" green="0.16427589037150328" blue="0.0066050565694960707" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Friedriechstrasse  52 64283 Darmstadt" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tik-WA-BOU">
+                                            <frame key="frameInset" minX="11" minY="63" width="117" height="39"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="9"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
                                     </subviews>
                                     <color key="backgroundColor" red="0.63321785534809982" green="0.85226510585652793" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="address" destination="Tik-WA-BOU" id="w2l-Pq-szP"/>
+                                    <outlet property="logo" destination="r1K-3E-cBg" id="oZv-Cr-xnF"/>
+                                    <outlet property="offerTimeRemaining" destination="CSg-r7-1PH" id="ByQ-su-YhW"/>
+                                    <outlet property="productImage" destination="zDX-YU-2ox" id="TSJ-6t-Ufe"/>
+                                    <outlet property="productName" destination="TSC-nW-oZx" id="gPF-s3-yan"/>
+                                    <outlet property="specialOfferText" destination="45q-Is-jBD" id="Yjw-Uf-Jhg"/>
+                                    <outlet property="timeRemaining" destination="5cc-yC-O8u" id="5uJ-tj-INv"/>
+                                </connections>
                             </tableViewCell>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="5xt-vR-2wW">
                                 <rect key="frame" x="0.0" y="262" width="375" height="44"/>
@@ -158,12 +168,16 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="title" rowHeight="170" id="Fyx-O3-Bm2">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="title" rowHeight="170" id="Fyx-O3-Bm2" customClass="ExclusiveTableViewCell" customModule="FoodOrganiserTwo" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="306" width="375" height="170"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Fyx-O3-Bm2" id="vph-eh-ms3">
                                     <frame key="frameInset" width="375" height="169.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <userGuides>
+                                        <userLayoutGuide location="64" affinity="minX"/>
+                                        <userLayoutGuide location="64" affinity="minX"/>
+                                    </userGuides>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Heinrichstraße 52 64283 Darmstadt" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RA7-OY-y6i">
                                             <frame key="frameInset" minX="19" minY="57" width="91" height="39"/>
@@ -207,10 +221,6 @@
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rewe.png" translatesAutoresizingMaskIntoConstraints="NO" id="Muj-dR-9iu">
-                                            <frame key="frameInset" minY="7" width="128" height="64"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NQp-SE-KS1">
                                             <frame key="frameInset" minX="23" minY="93" width="82" height="28"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -240,10 +250,21 @@
                                             <frame key="frameInset" minX="254" minY="70" width="40" height="29"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         </imageView>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rewe.png" translatesAutoresizingMaskIntoConstraints="NO" id="Muj-dR-9iu">
+                                            <frame key="frameInset" minY="16" width="128" height="48"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        </imageView>
                                     </subviews>
                                     <color key="backgroundColor" red="0.82352941176470584" green="0.99607843137254903" blue="0.69019607843137254" alpha="1" colorSpace="calibratedRGB"/>
                                 </tableViewCellContentView>
                                 <connections>
+                                    <outlet property="address" destination="RA7-OY-y6i" id="6QY-U3-C8w"/>
+                                    <outlet property="exclusiveOfferTimeRemaining" destination="UQp-Pg-34u" id="2oB-97-Hgb"/>
+                                    <outlet property="logo" destination="Muj-dR-9iu" id="DBR-mL-ohy"/>
+                                    <outlet property="productImage" destination="j7k-gy-DOh" id="Onj-ll-gtf"/>
+                                    <outlet property="productName" destination="2Fq-qH-W1D" id="csW-Bx-0ck"/>
+                                    <outlet property="productOffer" destination="w4R-qY-o0r" id="Lev-6c-iHa"/>
+                                    <outlet property="timeRemaining" destination="807-aT-CZg" id="6Uf-3S-HzD"/>
                                     <segue destination="pyw-P9-EWV" kind="show" id="CwE-My-M3N"/>
                                 </connections>
                             </tableViewCell>
@@ -534,6 +555,10 @@
         <scene sceneID="NHW-fY-erK">
             <objects>
                 <viewController id="3fz-Gf-tNe" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="LQK-Wi-cop"/>
+                        <viewControllerLayoutGuide type="bottom" id="AAC-UB-yY4"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="L05-J2-fBS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
