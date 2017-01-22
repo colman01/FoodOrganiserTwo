@@ -15,6 +15,24 @@
 		F3B40D3D1E33888B0064DED9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3B40D3B1E33888B0064DED9 /* LaunchScreen.storyboard */; };
 		F3B40D481E33888B0064DED9 /* FoodOrganiserTwoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B40D471E33888B0064DED9 /* FoodOrganiserTwoTests.swift */; };
 		F3B40D531E33888B0064DED9 /* FoodOrganiserTwoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B40D521E33888B0064DED9 /* FoodOrganiserTwoUITests.swift */; };
+		F3B40D611E33893D0064DED9 /* ShoppingListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B40D601E33893D0064DED9 /* ShoppingListTableViewController.swift */; };
+		F3B40D641E338BAD0064DED9 /* celery.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B40D631E338BAD0064DED9 /* celery.png */; };
+		F3B40D661E338F640064DED9 /* PersistManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B40D651E338F640064DED9 /* PersistManager.swift */; };
+		F3B40D681E3393B00064DED9 /* FoodOrganiserDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B40D671E3393B00064DED9 /* FoodOrganiserDao.swift */; };
+		F3B40D6F1E3399A70064DED9 /* Product+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B40D6D1E3399A70064DED9 /* Product+CoreDataClass.swift */; };
+		F3B40D701E3399A70064DED9 /* Product+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B40D6E1E3399A70064DED9 /* Product+CoreDataProperties.swift */; };
+		F3B40D721E339B490064DED9 /* LandingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B40D711E339B490064DED9 /* LandingTableViewController.swift */; };
+		F3B40D741E33AAA40064DED9 /* SpecialOffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B40D731E33AAA40064DED9 /* SpecialOffer.swift */; };
+		F3B40D761E33B19A0064DED9 /* location-crosshair.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B40D751E33B19A0064DED9 /* location-crosshair.png */; };
+		F3B40D781E33B1D90064DED9 /* milk_splash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F3B40D771E33B1D90064DED9 /* milk_splash.jpg */; };
+		F3B40D7A1E33B3A10064DED9 /* barcode.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F3B40D791E33B3A10064DED9 /* barcode.jpg */; };
+		F3B40D7C1E33E6A50064DED9 /* rewe.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B40D7B1E33E6A50064DED9 /* rewe.png */; };
+		F3B40D7E1E33E9E20064DED9 /* milk.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B40D7D1E33E9E20064DED9 /* milk.png */; };
+		F3B40D801E33EC1C0064DED9 /* cookie.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B40D7F1E33EC1C0064DED9 /* cookie.png */; };
+		F3B40D821E33ECE90064DED9 /* refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B40D811E33ECE90064DED9 /* refresh.png */; };
+		F3B40D841E33EDA10064DED9 /* aldi.JPG in Resources */ = {isa = PBXBuildFile; fileRef = F3B40D831E33EDA10064DED9 /* aldi.JPG */; };
+		F3B40D861E33EDF50064DED9 /* lidl.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B40D851E33EDF50064DED9 /* lidl.png */; };
+		F3B40D881E33EEA70064DED9 /* milkacookie.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B40D871E33EEA70064DED9 /* milkacookie.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +67,24 @@
 		F3B40D4E1E33888B0064DED9 /* FoodOrganiserTwoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodOrganiserTwoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3B40D521E33888B0064DED9 /* FoodOrganiserTwoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodOrganiserTwoUITests.swift; sourceTree = "<group>"; };
 		F3B40D541E33888B0064DED9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3B40D601E33893D0064DED9 /* ShoppingListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingListTableViewController.swift; sourceTree = "<group>"; };
+		F3B40D631E338BAD0064DED9 /* celery.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = celery.png; sourceTree = "<group>"; };
+		F3B40D651E338F640064DED9 /* PersistManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersistManager.swift; sourceTree = "<group>"; };
+		F3B40D671E3393B00064DED9 /* FoodOrganiserDao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodOrganiserDao.swift; sourceTree = "<group>"; };
+		F3B40D6D1E3399A70064DED9 /* Product+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Product+CoreDataClass.swift"; sourceTree = "<group>"; };
+		F3B40D6E1E3399A70064DED9 /* Product+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Product+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		F3B40D711E339B490064DED9 /* LandingTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandingTableViewController.swift; sourceTree = "<group>"; };
+		F3B40D731E33AAA40064DED9 /* SpecialOffer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpecialOffer.swift; sourceTree = "<group>"; };
+		F3B40D751E33B19A0064DED9 /* location-crosshair.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "location-crosshair.png"; sourceTree = "<group>"; };
+		F3B40D771E33B1D90064DED9 /* milk_splash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = milk_splash.jpg; sourceTree = "<group>"; };
+		F3B40D791E33B3A10064DED9 /* barcode.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = barcode.jpg; sourceTree = "<group>"; };
+		F3B40D7B1E33E6A50064DED9 /* rewe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rewe.png; sourceTree = "<group>"; };
+		F3B40D7D1E33E9E20064DED9 /* milk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = milk.png; sourceTree = "<group>"; };
+		F3B40D7F1E33EC1C0064DED9 /* cookie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cookie.png; sourceTree = "<group>"; };
+		F3B40D811E33ECE90064DED9 /* refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = refresh.png; sourceTree = "<group>"; };
+		F3B40D831E33EDA10064DED9 /* aldi.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = aldi.JPG; sourceTree = "<group>"; };
+		F3B40D851E33EDF50064DED9 /* lidl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lidl.png; sourceTree = "<group>"; };
+		F3B40D871E33EEA70064DED9 /* milkacookie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = milkacookie.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +115,10 @@
 		F3B40D231E33888B0064DED9 = {
 			isa = PBXGroup;
 			children = (
+				F3B40D6D1E3399A70064DED9 /* Product+CoreDataClass.swift */,
+				F3B40D6E1E3399A70064DED9 /* Product+CoreDataProperties.swift */,
+				F3B40D621E338BA60064DED9 /* images */,
+				F3B40D601E33893D0064DED9 /* ShoppingListTableViewController.swift */,
 				F3B40D2E1E33888B0064DED9 /* FoodOrganiserTwo */,
 				F3B40D461E33888B0064DED9 /* FoodOrganiserTwoTests */,
 				F3B40D511E33888B0064DED9 /* FoodOrganiserTwoUITests */,
@@ -100,12 +140,14 @@
 			isa = PBXGroup;
 			children = (
 				F3B40D2F1E33888B0064DED9 /* AppDelegate.swift */,
+				F3B40D651E338F640064DED9 /* PersistManager.swift */,
 				F3B40D311E33888B0064DED9 /* ViewController.swift */,
 				F3B40D331E33888B0064DED9 /* Main.storyboard */,
 				F3B40D391E33888B0064DED9 /* Assets.xcassets */,
 				F3B40D3B1E33888B0064DED9 /* LaunchScreen.storyboard */,
 				F3B40D3E1E33888B0064DED9 /* Info.plist */,
 				F3B40D361E33888B0064DED9 /* FoodOrganiserTwo.xcdatamodeld */,
+				F3B40D671E3393B00064DED9 /* FoodOrganiserDao.swift */,
 			);
 			path = FoodOrganiserTwo;
 			sourceTree = "<group>";
@@ -126,6 +168,26 @@
 				F3B40D541E33888B0064DED9 /* Info.plist */,
 			);
 			path = FoodOrganiserTwoUITests;
+			sourceTree = "<group>";
+		};
+		F3B40D621E338BA60064DED9 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				F3B40D871E33EEA70064DED9 /* milkacookie.png */,
+				F3B40D851E33EDF50064DED9 /* lidl.png */,
+				F3B40D831E33EDA10064DED9 /* aldi.JPG */,
+				F3B40D811E33ECE90064DED9 /* refresh.png */,
+				F3B40D7F1E33EC1C0064DED9 /* cookie.png */,
+				F3B40D7D1E33E9E20064DED9 /* milk.png */,
+				F3B40D7B1E33E6A50064DED9 /* rewe.png */,
+				F3B40D791E33B3A10064DED9 /* barcode.jpg */,
+				F3B40D771E33B1D90064DED9 /* milk_splash.jpg */,
+				F3B40D751E33B19A0064DED9 /* location-crosshair.png */,
+				F3B40D631E338BAD0064DED9 /* celery.png */,
+				F3B40D711E339B490064DED9 /* LandingTableViewController.swift */,
+				F3B40D731E33AAA40064DED9 /* SpecialOffer.swift */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,6 +258,7 @@
 				TargetAttributes = {
 					F3B40D2B1E33888B0064DED9 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 7Q5PH58GL9;
 						ProvisioningStyle = Automatic;
 					};
 					F3B40D421E33888B0064DED9 = {
@@ -235,9 +298,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3B40D821E33ECE90064DED9 /* refresh.png in Resources */,
 				F3B40D3D1E33888B0064DED9 /* LaunchScreen.storyboard in Resources */,
+				F3B40D641E338BAD0064DED9 /* celery.png in Resources */,
+				F3B40D7E1E33E9E20064DED9 /* milk.png in Resources */,
 				F3B40D3A1E33888B0064DED9 /* Assets.xcassets in Resources */,
+				F3B40D7A1E33B3A10064DED9 /* barcode.jpg in Resources */,
+				F3B40D781E33B1D90064DED9 /* milk_splash.jpg in Resources */,
+				F3B40D861E33EDF50064DED9 /* lidl.png in Resources */,
 				F3B40D351E33888B0064DED9 /* Main.storyboard in Resources */,
+				F3B40D7C1E33E6A50064DED9 /* rewe.png in Resources */,
+				F3B40D841E33EDA10064DED9 /* aldi.JPG in Resources */,
+				F3B40D761E33B19A0064DED9 /* location-crosshair.png in Resources */,
+				F3B40D881E33EEA70064DED9 /* milkacookie.png in Resources */,
+				F3B40D801E33EC1C0064DED9 /* cookie.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +339,13 @@
 				F3B40D321E33888B0064DED9 /* ViewController.swift in Sources */,
 				F3B40D301E33888B0064DED9 /* AppDelegate.swift in Sources */,
 				F3B40D381E33888B0064DED9 /* FoodOrganiserTwo.xcdatamodeld in Sources */,
+				F3B40D6F1E3399A70064DED9 /* Product+CoreDataClass.swift in Sources */,
+				F3B40D741E33AAA40064DED9 /* SpecialOffer.swift in Sources */,
+				F3B40D681E3393B00064DED9 /* FoodOrganiserDao.swift in Sources */,
+				F3B40D661E338F640064DED9 /* PersistManager.swift in Sources */,
+				F3B40D701E3399A70064DED9 /* Product+CoreDataProperties.swift in Sources */,
+				F3B40D721E339B490064DED9 /* LandingTableViewController.swift in Sources */,
+				F3B40D611E33893D0064DED9 /* ShoppingListTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,7 +497,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7Q5PH58GL9;
 				INFOPLIST_FILE = FoodOrganiserTwo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = none.FoodOrganiserTwo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -428,7 +511,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7Q5PH58GL9;
 				INFOPLIST_FILE = FoodOrganiserTwo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = none.FoodOrganiserTwo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
