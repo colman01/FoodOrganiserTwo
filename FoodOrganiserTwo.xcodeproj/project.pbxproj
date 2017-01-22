@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F323D9741E34C3BB008894FA /* createData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F323D9731E34C3BB008894FA /* createData.swift */; };
+		F323D9761E34C544008894FA /* CreateSampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F323D9751E34C544008894FA /* CreateSampleData.swift */; };
+		F323D9791E34D4EB008894FA /* kidney_beans.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F323D9781E34D4EB008894FA /* kidney_beans.jpg */; };
 		F3B40D301E33888B0064DED9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B40D2F1E33888B0064DED9 /* AppDelegate.swift */; };
 		F3B40D321E33888B0064DED9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B40D311E33888B0064DED9 /* ViewController.swift */; };
 		F3B40D351E33888B0064DED9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3B40D331E33888B0064DED9 /* Main.storyboard */; };
@@ -53,6 +56,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F323D9731E34C3BB008894FA /* createData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = createData.swift; sourceTree = "<group>"; };
+		F323D9751E34C544008894FA /* CreateSampleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateSampleData.swift; sourceTree = "<group>"; };
+		F323D9781E34D4EB008894FA /* kidney_beans.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kidney_beans.jpg; sourceTree = "<group>"; };
 		F3B40D2C1E33888B0064DED9 /* FoodOrganiserTwo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodOrganiserTwo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3B40D2F1E33888B0064DED9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3B40D311E33888B0064DED9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -112,6 +118,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F323D9771E34D4D6008894FA /* products */ = {
+			isa = PBXGroup;
+			children = (
+				F323D9781E34D4EB008894FA /* kidney_beans.jpg */,
+			);
+			name = products;
+			sourceTree = "<group>";
+		};
 		F3B40D231E33888B0064DED9 = {
 			isa = PBXGroup;
 			children = (
@@ -148,6 +162,8 @@
 				F3B40D3E1E33888B0064DED9 /* Info.plist */,
 				F3B40D361E33888B0064DED9 /* FoodOrganiserTwo.xcdatamodeld */,
 				F3B40D671E3393B00064DED9 /* FoodOrganiserDao.swift */,
+				F323D9731E34C3BB008894FA /* createData.swift */,
+				F323D9751E34C544008894FA /* CreateSampleData.swift */,
 			);
 			path = FoodOrganiserTwo;
 			sourceTree = "<group>";
@@ -173,6 +189,7 @@
 		F3B40D621E338BA60064DED9 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				F323D9771E34D4D6008894FA /* products */,
 				F3B40D871E33EEA70064DED9 /* milkacookie.png */,
 				F3B40D851E33EDF50064DED9 /* lidl.png */,
 				F3B40D831E33EDA10064DED9 /* aldi.JPG */,
@@ -302,6 +319,7 @@
 				F3B40D3D1E33888B0064DED9 /* LaunchScreen.storyboard in Resources */,
 				F3B40D641E338BAD0064DED9 /* celery.png in Resources */,
 				F3B40D7E1E33E9E20064DED9 /* milk.png in Resources */,
+				F323D9791E34D4EB008894FA /* kidney_beans.jpg in Resources */,
 				F3B40D3A1E33888B0064DED9 /* Assets.xcassets in Resources */,
 				F3B40D7A1E33B3A10064DED9 /* barcode.jpg in Resources */,
 				F3B40D781E33B1D90064DED9 /* milk_splash.jpg in Resources */,
@@ -345,6 +363,8 @@
 				F3B40D661E338F640064DED9 /* PersistManager.swift in Sources */,
 				F3B40D701E3399A70064DED9 /* Product+CoreDataProperties.swift in Sources */,
 				F3B40D721E339B490064DED9 /* LandingTableViewController.swift in Sources */,
+				F323D9761E34C544008894FA /* CreateSampleData.swift in Sources */,
+				F323D9741E34C3BB008894FA /* createData.swift in Sources */,
 				F3B40D611E33893D0064DED9 /* ShoppingListTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -594,6 +614,7 @@
 				F3B40D591E33888B0064DED9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F3B40D5A1E33888B0064DED9 /* Build configuration list for PBXNativeTarget "FoodOrganiserTwoTests" */ = {
 			isa = XCConfigurationList;
@@ -602,6 +623,7 @@
 				F3B40D5C1E33888B0064DED9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F3B40D5D1E33888B0064DED9 /* Build configuration list for PBXNativeTarget "FoodOrganiserTwoUITests" */ = {
 			isa = XCConfigurationList;
@@ -610,6 +632,7 @@
 				F3B40D5F1E33888B0064DED9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
