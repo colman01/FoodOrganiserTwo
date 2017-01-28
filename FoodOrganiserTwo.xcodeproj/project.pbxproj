@@ -536,7 +536,7 @@
 		F3B40D581E33888B0064DED9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 7Q5PH58GL9;
 				INFOPLIST_FILE = FoodOrganiserTwo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -550,7 +550,7 @@
 		F3B40D591E33888B0064DED9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 7Q5PH58GL9;
 				INFOPLIST_FILE = FoodOrganiserTwo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;

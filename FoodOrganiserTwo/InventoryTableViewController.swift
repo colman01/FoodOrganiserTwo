@@ -59,10 +59,58 @@ class InventoryTableViewController: UITableViewController {
 //                
 //        })
         
-        UIView.animate(withDuration: 2.3) {
-            self.infoView.alpha = 1
-        }
+//        UIView.animate(withDuration: 2.3) {
+//            self.infoView.alpha = 1
+//        }
     }
+    
+//    override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+//        return "Name | Pieces | Days Stored | Days Remaining | Eaten/Wasted"
+//    }
+    override func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView?
+    {
+        let uilbl = UILabel()
+        uilbl.numberOfLines = 0
+        uilbl.lineBreakMode = NSLineBreakMode.byWordWrapping
+        uilbl.text = "\n \n blablabla"
+        uilbl.sizeToFit()
+//        uilbl.backgroundColor =  UIColor(patternImage: UIImage(named: "yr-img-name")!)
+        
+        return uilbl
+    }
+//    override func tableView(_ tableView: UITableView, willDisplayHeaderView view: UIView, forSection section: Int) {
+//        
+//        let header = view as! UITableViewHeaderFooterView
+//        
+//        if let textlabel = header.textLabel {
+//            textlabel.font = textlabel.font.withSize(15)
+//            textlabel.text = "some text2"
+//        }
+//    }
+    
+//    func tableView(tableView: UITableView, willDisplayHeaderView view: UIView, forSection section: Int) {
+//        if let header = view as? UITableViewHeaderFooterView {
+//            header.textLabel!.font = UIFont.systemFont(ofSize: 3.0)
+//            header.textLabel!.text = "Name | Pieces | Days Stored | Days Remaining | Eaten/Wasted"
+//        }
+//    }
+    
+    
+//    override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+//        let myAttribute = [ NSFontAttributeName: UIFont(name: "Chalkduster", size: 18.0)! ]
+//        
+    
+        
+//        navigationController?.navigationBar.titleTextAttributes = [
+//            NSForegroundColorAttributeName: UIColor.black,
+//            NSFontAttributeName: UIFont(name: "HelveticaNeue-Thin", size: 20)!
+//        ]
+
+        
+        
+//    }
+    
+    
 
     /*
     // Override to support conditional editing of the table view.
