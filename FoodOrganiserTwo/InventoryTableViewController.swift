@@ -40,7 +40,7 @@ class InventoryTableViewController: UITableViewController {
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "item", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "test", for: indexPath)
 
         // Configure the cell...
 
@@ -65,19 +65,19 @@ class InventoryTableViewController: UITableViewController {
     }
     
 //    override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-//        return "Name | Pieces | Days Stored | Days Remaining | Eaten/Wasted"
+////        return "Name | Pieces | Days Stored | Days Remaining | Eaten/Wasted"
 //    }
-    override func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView?
-    {
-        let uilbl = UILabel()
-        uilbl.numberOfLines = 0
-        uilbl.lineBreakMode = NSLineBreakMode.byWordWrapping
-        uilbl.text = "\n \n blablabla"
-        uilbl.sizeToFit()
-//        uilbl.backgroundColor =  UIColor(patternImage: UIImage(named: "yr-img-name")!)
-        
-        return uilbl
-    }
+//    override func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView?
+//    {
+//        let uilbl = UILabel()
+//        uilbl.numberOfLines = 0
+//        uilbl.lineBreakMode = NSLineBreakMode.byWordWrapping
+//        uilbl.text = "\n \n blablabla"
+//        uilbl.sizeToFit()
+////        uilbl.backgroundColor =  UIColor(patternImage: UIImage(named: "yr-img-name")!)
+//        
+//        return uilbl
+//    }
 //    override func tableView(_ tableView: UITableView, willDisplayHeaderView view: UIView, forSection section: Int) {
 //        
 //        let header = view as! UITableViewHeaderFooterView
