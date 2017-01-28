@@ -15,6 +15,9 @@
 		F323D9811E34F9BD008894FA /* person.png in Resources */ = {isa = PBXBuildFile; fileRef = F323D9801E34F9BD008894FA /* person.png */; };
 		F323D9831E34FB25008894FA /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F323D9821E34FB25008894FA /* ProfileViewController.swift */; };
 		F323D9851E3501B2008894FA /* InventoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F323D9841E3501B2008894FA /* InventoryTableViewController.swift */; };
+		F35D2E271E3D001700F35FAE /* InventoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35D2E261E3D001700F35FAE /* InventoryViewController.swift */; };
+		F35D2E291E3D0AB100F35FAE /* WinFoodNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35D2E281E3D0AB100F35FAE /* WinFoodNavigationBar.swift */; };
+		F35D2E2B1E3D0B6500F35FAE /* StatisticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35D2E2A1E3D0B6500F35FAE /* StatisticsViewController.swift */; };
 		F3B40D301E33888B0064DED9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B40D2F1E33888B0064DED9 /* AppDelegate.swift */; };
 		F3B40D321E33888B0064DED9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B40D311E33888B0064DED9 /* ViewController.swift */; };
 		F3B40D351E33888B0064DED9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3B40D331E33888B0064DED9 /* Main.storyboard */; };
@@ -69,6 +72,9 @@
 		F323D9801E34F9BD008894FA /* person.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = person.png; sourceTree = "<group>"; };
 		F323D9821E34FB25008894FA /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		F323D9841E3501B2008894FA /* InventoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InventoryTableViewController.swift; sourceTree = "<group>"; };
+		F35D2E261E3D001700F35FAE /* InventoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InventoryViewController.swift; sourceTree = "<group>"; };
+		F35D2E281E3D0AB100F35FAE /* WinFoodNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WinFoodNavigationBar.swift; sourceTree = "<group>"; };
+		F35D2E2A1E3D0B6500F35FAE /* StatisticsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatisticsViewController.swift; sourceTree = "<group>"; };
 		F3B40D2C1E33888B0064DED9 /* FoodOrganiserTwo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodOrganiserTwo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3B40D2F1E33888B0064DED9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3B40D311E33888B0064DED9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -140,6 +146,9 @@
 		F3B40D231E33888B0064DED9 = {
 			isa = PBXGroup;
 			children = (
+				F35D2E2A1E3D0B6500F35FAE /* StatisticsViewController.swift */,
+				F35D2E281E3D0AB100F35FAE /* WinFoodNavigationBar.swift */,
+				F35D2E261E3D001700F35FAE /* InventoryViewController.swift */,
 				F3B40D6D1E3399A70064DED9 /* Product+CoreDataClass.swift */,
 				F3B40D6E1E3399A70064DED9 /* Product+CoreDataProperties.swift */,
 				F3B40D621E338BA60064DED9 /* images */,
@@ -373,7 +382,9 @@
 				F3B40D321E33888B0064DED9 /* ViewController.swift in Sources */,
 				F3B40D301E33888B0064DED9 /* AppDelegate.swift in Sources */,
 				F3B40D381E33888B0064DED9 /* FoodOrganiserTwo.xcdatamodeld in Sources */,
+				F35D2E271E3D001700F35FAE /* InventoryViewController.swift in Sources */,
 				F3B40D6F1E3399A70064DED9 /* Product+CoreDataClass.swift in Sources */,
+				F35D2E2B1E3D0B6500F35FAE /* StatisticsViewController.swift in Sources */,
 				F3B40D741E33AAA40064DED9 /* SpecialOffer.swift in Sources */,
 				F3B40D681E3393B00064DED9 /* FoodOrganiserDao.swift in Sources */,
 				F3B40D661E338F640064DED9 /* PersistManager.swift in Sources */,
@@ -385,6 +396,7 @@
 				F323D9741E34C3BB008894FA /* createData.swift in Sources */,
 				F323D9831E34FB25008894FA /* ProfileViewController.swift in Sources */,
 				F3B40D611E33893D0064DED9 /* ShoppingListTableViewController.swift in Sources */,
+				F35D2E291E3D0AB100F35FAE /* WinFoodNavigationBar.swift in Sources */,
 				F323D97D1E34DD9C008894FA /* SpecialTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

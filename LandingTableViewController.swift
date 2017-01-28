@@ -19,6 +19,9 @@ class LandingTableViewController: UITableViewController {
         create.createSomeData()
         records = FoodOrganiserDao.instance.getProducts()
         
+        self.navigationController?.title = "WinFoods"
+        self.navigationItem.title = "WinFoods"
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -45,9 +48,9 @@ class LandingTableViewController: UITableViewController {
         
         if(indexPath.row % 2 == 0) {
             let cell: ExclusiveTableViewCell
-
             
-                cell = tableView.dequeueReusableCell(withIdentifier: "title", for: indexPath) as! ExclusiveTableViewCell
+            cell = tableView.dequeueReusableCell(withIdentifier: "title", for: indexPath) as! ExclusiveTableViewCell
+            cell.selectionStyle = .none
             
             cell.productName.text = product.name
             cell.productImage.image = UIImage(data:product.image as! Data,scale:1)
@@ -55,7 +58,9 @@ class LandingTableViewController: UITableViewController {
             
         } else {
             let cell: SpecialTableViewCell
+            
             cell = tableView.dequeueReusableCell(withIdentifier: "special", for: indexPath) as! SpecialTableViewCell
+            cell.selectionStyle = .none
             return cell
         }
 //        let cell = tableView.dequeueReusableCell(withIdentifier: "title", for: indexPath)

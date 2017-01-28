@@ -13,6 +13,7 @@ class InventoryTableViewController: UITableViewController {
     @IBOutlet weak var infoView: UITextView!
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationController?.title = "WinFoods"
 
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
@@ -35,7 +36,7 @@ class InventoryTableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 1
+        return 10
     }
 
     
@@ -43,6 +44,8 @@ class InventoryTableViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "test", for: indexPath)
 
         // Configure the cell...
+        
+        cell.selectionStyle = .none
 
         return cell
     }
@@ -62,6 +65,20 @@ class InventoryTableViewController: UITableViewController {
 //        UIView.animate(withDuration: 2.3) {
 //            self.infoView.alpha = 1
 //        }
+        var parent: InventoryViewController!
+        
+        parent = self.parent as! InventoryViewController
+        
+        
+        if parent.infoView.isHidden {
+            parent.infoView.isHidden = false
+            parent.infoView.alpha = 0
+            UIView.animate(withDuration: 0.8) {
+                parent.infoView.alpha = 1
+            }
+        }
+        
+        
     }
     
 //    override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
