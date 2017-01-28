@@ -12,6 +12,9 @@
 		F323D9791E34D4EB008894FA /* kidney_beans.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F323D9781E34D4EB008894FA /* kidney_beans.jpg */; };
 		F323D97D1E34DD9C008894FA /* SpecialTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F323D97C1E34DD9C008894FA /* SpecialTableViewCell.swift */; };
 		F323D97F1E34DDAC008894FA /* ExclusiveTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F323D97E1E34DDAC008894FA /* ExclusiveTableViewCell.swift */; };
+		F323D9811E34F9BD008894FA /* person.png in Resources */ = {isa = PBXBuildFile; fileRef = F323D9801E34F9BD008894FA /* person.png */; };
+		F323D9831E34FB25008894FA /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F323D9821E34FB25008894FA /* ProfileViewController.swift */; };
+		F323D9851E3501B2008894FA /* InventoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F323D9841E3501B2008894FA /* InventoryTableViewController.swift */; };
 		F3B40D301E33888B0064DED9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B40D2F1E33888B0064DED9 /* AppDelegate.swift */; };
 		F3B40D321E33888B0064DED9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B40D311E33888B0064DED9 /* ViewController.swift */; };
 		F3B40D351E33888B0064DED9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3B40D331E33888B0064DED9 /* Main.storyboard */; };
@@ -63,6 +66,9 @@
 		F323D9781E34D4EB008894FA /* kidney_beans.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kidney_beans.jpg; sourceTree = "<group>"; };
 		F323D97C1E34DD9C008894FA /* SpecialTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpecialTableViewCell.swift; sourceTree = "<group>"; };
 		F323D97E1E34DDAC008894FA /* ExclusiveTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExclusiveTableViewCell.swift; sourceTree = "<group>"; };
+		F323D9801E34F9BD008894FA /* person.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = person.png; sourceTree = "<group>"; };
+		F323D9821E34FB25008894FA /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		F323D9841E3501B2008894FA /* InventoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InventoryTableViewController.swift; sourceTree = "<group>"; };
 		F3B40D2C1E33888B0064DED9 /* FoodOrganiserTwo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodOrganiserTwo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3B40D2F1E33888B0064DED9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3B40D311E33888B0064DED9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -125,6 +131,7 @@
 		F323D9771E34D4D6008894FA /* products */ = {
 			isa = PBXGroup;
 			children = (
+				F323D9801E34F9BD008894FA /* person.png */,
 				F323D9781E34D4EB008894FA /* kidney_beans.jpg */,
 			);
 			name = products;
@@ -168,6 +175,8 @@
 				F3B40D671E3393B00064DED9 /* FoodOrganiserDao.swift */,
 				F323D97C1E34DD9C008894FA /* SpecialTableViewCell.swift */,
 				F323D97E1E34DDAC008894FA /* ExclusiveTableViewCell.swift */,
+				F323D9821E34FB25008894FA /* ProfileViewController.swift */,
+				F323D9841E3501B2008894FA /* InventoryTableViewController.swift */,
 				F323D9731E34C3BB008894FA /* createData.swift */,
 				F323D9751E34C544008894FA /* CreateSampleData.swift */,
 			);
@@ -325,6 +334,7 @@
 				F3B40D3D1E33888B0064DED9 /* LaunchScreen.storyboard in Resources */,
 				F3B40D641E338BAD0064DED9 /* celery.png in Resources */,
 				F3B40D7E1E33E9E20064DED9 /* milk.png in Resources */,
+				F323D9811E34F9BD008894FA /* person.png in Resources */,
 				F323D9791E34D4EB008894FA /* kidney_beans.jpg in Resources */,
 				F3B40D3A1E33888B0064DED9 /* Assets.xcassets in Resources */,
 				F3B40D7A1E33B3A10064DED9 /* barcode.jpg in Resources */,
@@ -370,8 +380,10 @@
 				F3B40D701E3399A70064DED9 /* Product+CoreDataProperties.swift in Sources */,
 				F3B40D721E339B490064DED9 /* LandingTableViewController.swift in Sources */,
 				F323D9761E34C544008894FA /* CreateSampleData.swift in Sources */,
+				F323D9851E3501B2008894FA /* InventoryTableViewController.swift in Sources */,
 				F323D97F1E34DDAC008894FA /* ExclusiveTableViewCell.swift in Sources */,
 				F323D9741E34C3BB008894FA /* createData.swift in Sources */,
+				F323D9831E34FB25008894FA /* ProfileViewController.swift in Sources */,
 				F3B40D611E33893D0064DED9 /* ShoppingListTableViewController.swift in Sources */,
 				F323D97D1E34DD9C008894FA /* SpecialTableViewCell.swift in Sources */,
 			);

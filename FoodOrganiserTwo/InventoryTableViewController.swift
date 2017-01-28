@@ -10,6 +10,7 @@ import UIKit
 
 class InventoryTableViewController: UITableViewController {
 
+    @IBOutlet weak var infoView: UITextView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -29,23 +30,39 @@ class InventoryTableViewController: UITableViewController {
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return 1
     }
 
-    /*
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "item", for: indexPath)
 
         // Configure the cell...
 
         return cell
     }
-    */
+    
+    
+//    overrid func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath)
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        //
+        
+//        UIView.animate(withDuration: 0.9, animations: {
+//            self.infoView.alpha = 1
+//            }, completion: {
+//                finished in
+//                
+//        })
+        
+        UIView.animate(withDuration: 2.3) {
+            self.infoView.alpha = 1
+        }
+    }
 
     /*
     // Override to support conditional editing of the table view.
